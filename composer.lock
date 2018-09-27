@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "24ca424e8c346192b2bf2d632eef2ca7",
+    "packages": [
+        {
+            "name": "maxcdn/php-maxcdn",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MaxCDN/php-maxcdn.git",
+                "reference": "ecab9b8356b40bb42ea3689550f61abf91c6562b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MaxCDN/php-maxcdn/zipball/ecab9b8356b40bb42ea3689550f61abf91c6562b",
+                "reference": "ecab9b8356b40bb42ea3689550f61abf91c6562b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MaxCDN\\": "src/"
+                },
+                "classmap": [
+                    "src/MaxCDN.php",
+                    "src/MaxCDN/OAuth/OAuthSignatureMethod_PLAINTEXT.php",
+                    "src/MaxCDN/OAuth/OAuthSignatureMethod_HMAC_SHA1.php",
+                    "src/MaxCDN/OAuth/OAuthSignatureMethod_RSA_SHA1.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP Wrapper for MaxCDN Remote Web Services",
+            "homepage": "http://docs.maxcdn.com",
+            "time": "2015-07-20T21:55:19+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2018-07-29T20:33:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

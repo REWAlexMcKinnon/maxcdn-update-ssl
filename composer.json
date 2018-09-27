@@ -1,0 +1,13 @@
+{
+    "name": "mckinnon.alexander/maxcdn",
+    "authors": [
+        {
+            "name": "Alex McKinnon",
+            "email": "mckinnon.alexander@realestatewebmasters.com"
+        }
+    ],
+    "require": {
+        "maxcdn/php-maxcdn": "^2.0",
+        "vlucas/phpdotenv": "^2.5"
+    }
+}
